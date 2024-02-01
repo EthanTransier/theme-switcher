@@ -1,0 +1,14 @@
+header {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h1 {
+    margin-left: 3rem;
+  }
+  nav {
+    display: flex;
+    margin-right: 3rem;
+    gap: 2rem;
+  }
+}

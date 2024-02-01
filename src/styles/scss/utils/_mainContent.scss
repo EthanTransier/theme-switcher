@@ -1,0 +1,14 @@
+main {
+  width: calc(100vw - 10rem);
+  height: 90vh;
+  background-color: rgb(27, 31, 45);
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 1.25rem;
+  padding: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
