@@ -1,4 +1,10 @@
 footer {
   display: flex;
   justify-content: space-evenly;
+  width: 100vw;
+  .vert {
+    height: 2rem;
+    width: 2px;
+    color: black;
+  }
 }

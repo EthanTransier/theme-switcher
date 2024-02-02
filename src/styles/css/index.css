@@ -15,7 +15,7 @@ header nav {
 
 main {
   width: calc(100vw - 10rem);
-  height: 90vh;
+  height: 80vh;
   background-color: rgb(27, 31, 45);
   color: white;
   text-align: center;
@@ -31,4 +31,10 @@ main {
 footer {
   display: flex;
   justify-content: space-evenly;
+  width: 100vw;
+}
+footer .vert {
+  height: 2rem;
+  width: 2px;
+  color: black;
 }/*# sourceMappingURL=index.css.map */

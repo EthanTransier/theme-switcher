@@ -8,11 +8,13 @@ const Footer = () => {
             <h3>LINKS</h3>
             <h3>LINKS</h3>
         </div>
+        <div className='vert'></div>
         <div>
             <h3>LINKS</h3>
             <h3>LINKS</h3>
             <h3>LINKS</h3>
         </div>
+        <div className='vert'></div>
         <div>
             <h3>LINKS</h3>
             <h3>LINKS</h3>
