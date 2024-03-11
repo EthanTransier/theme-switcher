@@ -1,1 +1,6 @@
-@import './utils/header', './utils/mainContent', './utils/footer';
+@import './utils/header', './utils/mainContent', './utils/footer',
+  './utils/card';
+
+body {
+  overflow-x: hidden;
+}

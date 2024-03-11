@@ -1,10 +1,17 @@
-import React, {useState, useContext} from 'react'
+import {useContext} from 'react'
+import {ThemeContext} from '../App'
 
-const ThemeContext = React.createContext()
+const ThemeSwitcher = ({children}) => {
+  const {darkTheme, setDarkTheme} = useContext(ThemeContext)
 
-const ThemeSwitcher = () => {
+  function toggleTheme(){
+    console.log(darkTheme)
+    setDarkTheme(!darkTheme)
+    console.log(darkTheme)
+  }
+
   return (
-    <div>ThemeSwitcher</div>
+    <button onClick={() => toggleTheme()}>Switch</button>
   )
 }
 

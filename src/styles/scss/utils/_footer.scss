@@ -2,9 +2,17 @@ footer {
   display: flex;
   justify-content: space-evenly;
   width: 100vw;
+  overflow-y: hidden;
   .vert {
     height: 2rem;
     width: 2px;
     color: black;
   }
+}
+.darkFooter {
+  background-color: white;
+}
+.lightFooter {
+  background-color: rgb(27, 31, 45);
+  color: white;
 }
