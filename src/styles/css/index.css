@@ -13,28 +13,105 @@ header nav {
   gap: 2rem;
 }
 
+.darkHeader {
+  background-color: white;
+}
+
+.lightHeader {
+  background-color: rgb(27, 31, 45);
+  color: white;
+}
+
 main {
   width: calc(100vw - 10rem);
-  height: 80vh;
   background-color: rgb(27, 31, 45);
   color: white;
   text-align: center;
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: 1.25rem;
   padding: 2rem;
   padding-left: 5rem;
   padding-right: 5rem;
+  padding-bottom: 5rem;
+}
+
+.lightMain {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+.lightMain .cardList {
+  color: black;
+}
+.lightMain .cardList .card {
+  color: black;
+  background: rgb(227, 227, 227);
+}
+.lightMain .cardList .card h2 {
+  color: black;
 }
 
 footer {
   display: flex;
   justify-content: space-evenly;
   width: 100vw;
+  overflow-y: hidden;
 }
 footer .vert {
   height: 2rem;
   width: 2px;
   color: black;
+}
+
+.darkFooter {
+  background-color: white;
+}
+
+.lightFooter {
+  background-color: rgb(27, 31, 45);
+  color: white;
+}
+
+.cardList {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.cardList .card {
+  height: 25rem;
+  width: 18rem;
+  background-color: rgb(14, 16, 25);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 1rem;
+}
+.cardList .card img {
+  height: 40%;
+  width: 100%;
+  object-fit: cover;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+.cardList .card h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: white;
+  text-align: center;
+  text-align: centers;
+  margin-left: 1rem;
+}
+.cardList .card p {
+  text-align: left;
+  font-size: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+body {
+  overflow-x: hidden;
 }/*# sourceMappingURL=index.css.map */
