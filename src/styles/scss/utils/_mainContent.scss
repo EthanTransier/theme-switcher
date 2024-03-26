@@ -12,3 +12,23 @@ main {
   padding-left: 5rem;
   padding-right: 5rem;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  grid-template-areas: 'sidebar content';
+}
+// The sidebar will not shrink, but the content will
+.sidebar {
+  grid-area: sidebar;
+}
+.content {
+  grid-area: content;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
